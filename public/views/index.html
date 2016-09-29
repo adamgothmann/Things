@@ -15,9 +15,15 @@
       <input ng-model="picture" type="text" name="name" value="">
       <button ng-click="addThing()" type="button" name="button">Add</button>
     </div>
-    <div ng-repeat="thing in array">
+    <table>
+      <tr ng-repeat="thing in array">
+        <td>{{thing.thing}}</td>
+        <td><img ng-src="{{thing.picture}}"/></td>
+      </tr>
+    </table>
+    <!-- <div ng-repeat="thing in array">
       <p>{{thing.thing}}</p>
       <img ng-src="{{thing.picture}}"/>
-    </div>
+    </div> -->
   </body>
 </html>

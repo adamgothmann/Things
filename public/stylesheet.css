@@ -1,0 +1,9 @@
+img {
+  height: 5px;
+  width: 5px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+td {
+  border: solid;
+}
